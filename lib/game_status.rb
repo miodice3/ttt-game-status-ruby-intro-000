@@ -60,7 +60,9 @@ end
 #false if the board is won. (FALSE if WON)
 
 def draw?(board)
-full?(board)
+  if full?(board) == true
+    puts "true"
+    true
 end
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]   #draw
