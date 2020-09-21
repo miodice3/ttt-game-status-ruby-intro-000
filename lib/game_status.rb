@@ -121,7 +121,8 @@ def over?(board)
 end
 
 #board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]   #draw
-board = ["X", "X", "O", "X", "X", "X", "X", "X", "X"]   #win
+#board = ["X", "X", "O", "X", "X", "X", "X", "X", "X"]   #win
+board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
 
 def winner(board)
 #accepts BOARD, return "X" or "O" that has won the game. return FALSE if no winner
