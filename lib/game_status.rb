@@ -62,6 +62,7 @@ def draw?(board)
   if won?(board) == false
     puts "A"
     true
+  elsif 
   end
 end
 
