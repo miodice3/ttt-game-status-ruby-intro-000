@@ -123,8 +123,6 @@ def over?(board)
   end
 end
 
-#over?(board)
-
 =begin
 def winner(board)
 end
