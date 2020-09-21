@@ -125,7 +125,6 @@ end
 board = ["X", "O", " ", " ", " ", " ", " ", "O", "X"]  #expects nil
 
 
-
 def winner(board)
 #accepts BOARD, return "X" or "O" that has won the game. return FALSE if no winner
   WIN_COMBINATIONS.each do |win_combination|
