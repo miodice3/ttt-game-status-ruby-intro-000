@@ -63,6 +63,7 @@ def draw?(board)
     puts "A"
     true
   elsif 
+  
   end
 end
 
