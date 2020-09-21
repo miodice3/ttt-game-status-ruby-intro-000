@@ -122,6 +122,7 @@ end
 
 board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
 board = ["X", "O", " ", " ", "O", " ", " ", "O", "X"]
+board = ["X", "O", " ", " ", " ", " ", " ", "O", "X"]  #expects nil
 
 
 def winner(board)
