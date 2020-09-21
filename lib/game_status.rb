@@ -16,7 +16,9 @@ WIN_COMBINATIONS = [
   [0,4,8],
   [2,4,6],
   ]
-  
+
+
+
 def won?(board)
   #accepts board, returns FALSE if NO WIN combination, RETURN WIN COMBO if WON
   WIN_COMBINATIONS.each do |win_combination|
@@ -93,7 +95,7 @@ board = ["X", "X", "O", "X", "X", "X", "X", "X", "X"]   #win
 
 def over?(board)
   #accepts BOARD, TRUE if board WON, TRUE if board DRAW, TRUE if board full
-            WIN_COMBINATIONS.each do |win_combination|
+          WIN_COMBINATIONS.each do |win_combination|
           #puts win_combination.inspect
           win_index_1 = win_combination[0]
           win_index_2 = win_combination[1]
@@ -105,10 +107,9 @@ def over?(board)
     
             if position_1 == position_2 && position_2 == position_3 && position_taken?(board, win_index_1)
              puts "true A"
-             
              true
             end
-          end
+      end
 end
 
 over?(board)
