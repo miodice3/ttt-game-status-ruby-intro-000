@@ -88,8 +88,8 @@ def draw?(board)
       elsif won?(board) == false
         #puts "false B"
         false
-      elsif 
-      
+      elsif wontf?(board) == true
+        false      
       
 =begin  
           WIN_COMBINATIONS.each do |win_combination|
