@@ -92,6 +92,8 @@ end
 board = ["X", "X", "O", "X", "X", "X", "X", "X", "X"]   #draw
 
 def over?(board)
+  #accepts BOARD, TRUE if board WON, TRUE if board DRAW, TRUE if board full
+  if 
 end
 
 =begin
