@@ -144,6 +144,7 @@ def winner(board)
       false
     end
   end
+end
 
 
 winner(board)
