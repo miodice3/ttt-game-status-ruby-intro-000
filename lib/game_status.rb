@@ -59,7 +59,9 @@ end
 #false if the board is won. (FALSE if WON)
 
 def draw?(board)
-  if 
+  if won?(board) == FALSE
+    puts "A"
+    TRUE
 end
 
 def over?(board)
