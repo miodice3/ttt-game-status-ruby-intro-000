@@ -121,6 +121,7 @@ def over?(board)
 end
 
 board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
+board = ["X", "O", " ", " ", "O", " ", " ", "O", "X"]
 
 
 def winner(board)
