@@ -142,9 +142,9 @@ def winner(board)
       puts position_1
       return position_1
     else
-      puts "false B"
-      false
-      nil
+      #puts "false B"
+      #false
+      #nil
     end
   end
 end
