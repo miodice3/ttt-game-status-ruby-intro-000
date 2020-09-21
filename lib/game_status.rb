@@ -143,7 +143,7 @@ def winner(board)
       return position_1
     else
       #puts "false B"
-      false
+      #false
     end
   end
 end
