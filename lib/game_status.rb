@@ -107,8 +107,8 @@ def draw?(board)
     end
 end
 
-#board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]   #draw
-board = ["X", "X", "O", "X", "X", "X", "X", "X", "X"]   #win
+board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]   #draw
+#board = ["X", "X", "O", "X", "X", "X", "X", "X", "X"]   #win
 
 def over?(board)
   #accepts board returns TRUE if WON, is a DRAW, or is FULL
