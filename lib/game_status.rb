@@ -113,16 +113,16 @@ board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]   #draw
 def over?(board)
   #accepts board returns TRUE if WON, is a DRAW, or is FULL
   if wontf?(board) == true
-    puts "true A"
+#    puts "true A"
     true
   elsif draw?(board) == true
-    puts "true B"
+#    puts "true B"
     true
   elsif full?(board) == true
-    puts "true C"
+#    puts "true C"
     true
   else
-    puts "false D"
+#    puts "false D"
     false
   end
 end
