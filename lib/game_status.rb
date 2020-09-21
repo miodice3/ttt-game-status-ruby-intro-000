@@ -64,10 +64,10 @@ board = ["X", "X", "O", "X", "X", "X", "X", "X", "X"]   #draw
 
 def draw?(board)
       if full?(board) == true
-        puts "true A"
+        #puts "true A"
         true
       elsif won?(board) == false
-        puts "false B"
+        #puts "false B"
         false
       elsif
           WIN_COMBINATIONS.each do |win_combination|
@@ -81,7 +81,7 @@ def draw?(board)
           position_3 = board[win_index_3] # load the value of the board at win_index_3    
     
             if position_1 == position_2 && position_2 == position_3 && position_taken?(board, win_index_1)
-             puts "false C"
+             #puts "false C"
              false
             end
       end
