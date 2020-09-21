@@ -56,4 +56,4 @@ end
 def draw?(board)
 end
 
-
+def winner(board)
