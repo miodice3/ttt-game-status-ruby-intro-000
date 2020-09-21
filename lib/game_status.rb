@@ -136,13 +136,14 @@ def winner(board)
     position_3 = board[win_index_3] # load the value of the board at win_index_3    
 
     if position_1 == position_2 && position_2 == position_3 && position_taken?(board, win_index_1)
-      puts "position_1:"
+      puts "position_1: A"
       puts position_1
       position_1
+    else
+      puts "false B"
+      false
     end
   end
-  false
-end
-end
+
 
 winner(board)
