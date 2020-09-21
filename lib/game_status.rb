@@ -144,6 +144,7 @@ def winner(board)
     else
       #puts "false B"
       #false
+      puts "nil"
       nil
     end
   end
