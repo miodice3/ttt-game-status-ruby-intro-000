@@ -64,6 +64,10 @@ def draw?(board)
     true
 end
 
+board =
+
+draw?(board)
+
 def over?(board)
 end
 
