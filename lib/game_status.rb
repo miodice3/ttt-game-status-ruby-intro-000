@@ -106,7 +106,7 @@ def draw?(board)
              #puts "false C"
              false
 =end
-            end
+            #end
       end
     end
 end
