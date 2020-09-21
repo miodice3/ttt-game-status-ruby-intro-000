@@ -18,6 +18,7 @@ WIN_COMBINATIONS = [
   ]
   
 def won?(board)
+  #accepts board, returns FALSE if NO WIN combination, RETURN WIN COMBO if WON
   WIN_COMBINATIONS.each do |win_combination|
     #puts win_combination.inspect
     win_index_1 = win_combination[0]
@@ -59,12 +60,7 @@ end
 #false if the board is won. (FALSE if WON)
 
 def draw?(board)
-  if won?(board) == false
-    puts "A"
-    true
-  elsif 
-  
-  end
+
 end
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]   #draw
