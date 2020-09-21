@@ -124,7 +124,7 @@ def over?(board)
   else
     puts "false D"
     false
-  
+  end
 end
 
 over?(board)
