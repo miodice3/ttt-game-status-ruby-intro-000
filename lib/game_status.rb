@@ -66,6 +66,8 @@ def draw?(board)
   elsif won?(board) == false
     puts "false B"
     false
+  elsif
+  
 end
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]   #draw
