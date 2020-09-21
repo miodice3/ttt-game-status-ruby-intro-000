@@ -89,7 +89,7 @@ def draw?(board)
 end
 
 #board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]   #draw
-board = ["X", "X", "O", "X", "X", "X", "X", "X", "X"]   #draw
+board = ["X", "X", "O", "X", "X", "X", "X", "X", "X"]   #win
 
 def over?(board)
   #accepts BOARD, TRUE if board WON, TRUE if board DRAW, TRUE if board full
