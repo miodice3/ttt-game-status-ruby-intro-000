@@ -87,6 +87,8 @@ def draw?(board)
     end
 end
 
+#board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]   #draw
+board = ["X", "X", "O", "X", "X", "X", "X", "X", "X"]   #draw
 
 def over?(board)
 end
