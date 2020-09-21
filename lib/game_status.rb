@@ -147,6 +147,7 @@ def winner(board)
       puts "nil"
       nil
     end
+    nil
   end
 end
 
