@@ -121,8 +121,8 @@ def over?(board)
 end
 
 #board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
-#board = ["X", "O", " ", " ", "O", " ", " ", "O", "X"]
-board = ["X", "O", " ", " ", " ", " ", " ", "O", "X"]  #expects nil
+board = ["X", "O", " ", " ", "O", " ", " ", "O", "X"]
+#board = ["X", "O", " ", " ", " ", " ", " ", "O", "X"]  #expects nil
 
 =begin
 def winner(board)
