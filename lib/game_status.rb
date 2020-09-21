@@ -64,7 +64,7 @@ def draw?(board)
     true
 end
 
-
+board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]   #draw
 
 draw?(board)
 
