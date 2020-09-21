@@ -113,16 +113,12 @@ end
 def over?(board)
   #accepts board returns TRUE if WON, is a DRAW, or is FULL
   if wontf?(board) == true
-#    puts "true A"
     true
   elsif draw?(board) == true
-#    puts "true B"
     true
   elsif full?(board) == true
-#    puts "true C"
     true
   else
-#    puts "false D"
     false
   end
 end
