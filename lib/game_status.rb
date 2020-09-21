@@ -62,6 +62,7 @@ def draw?(board)
   if won?(board) == false
     puts "A"
     true
+  end
 end
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]   #draw
