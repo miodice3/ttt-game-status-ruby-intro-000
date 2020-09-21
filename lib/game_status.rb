@@ -107,7 +107,7 @@ def draw?(board)
     end
 end
 
-board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]   #draw
+#board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]   #draw
 #board = ["X", "X", "O", "X", "X", "X", "X", "X", "X"]   #win
 
 def over?(board)
@@ -127,7 +127,7 @@ def over?(board)
   end
 end
 
-over?(board)
+#over?(board)
 
 =begin
 def winner(board)
