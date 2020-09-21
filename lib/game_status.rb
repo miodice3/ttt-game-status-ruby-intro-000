@@ -61,8 +61,11 @@ end
 
 def draw?(board)
   if full?(board) == true
-    puts "true"
+    puts "true A"
     true
+  elsif won?(board) == false
+    puts "false B"
+    false
 end
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]   #draw
