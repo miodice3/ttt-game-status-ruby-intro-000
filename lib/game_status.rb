@@ -118,7 +118,12 @@ def over?(board)
   elsif draw?(board) == true
     puts "true B"
     true
-  elsif full?(board)
+  elsif full?(board) == true
+    puts "true C"
+    true
+  else
+    puts "false D"
+    false
   
 end
 
