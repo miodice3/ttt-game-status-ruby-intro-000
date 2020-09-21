@@ -64,7 +64,7 @@ def draw?(board)
     true
 end
 
-board =
+
 
 draw?(board)
 
