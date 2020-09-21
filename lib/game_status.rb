@@ -108,6 +108,7 @@ def over?(board)
              
              true
             end
+          end
 end
 
 over?(board)
