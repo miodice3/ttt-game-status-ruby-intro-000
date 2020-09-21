@@ -59,7 +59,7 @@ end
 #false if the board is won. (FALSE if WON)
 
 def draw?(board)
-  
+  if 
 end
 
 def over?(board)
