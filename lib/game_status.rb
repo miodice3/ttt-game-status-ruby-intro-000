@@ -59,6 +59,8 @@ end
 #false if the board is not won and the board is not full (FALSE if NO win && not yet finished)
 #false if the board is won. (FALSE if WON)
 
+board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]   #draw
+
 def draw?(board)
       if full?(board) == true
         puts "true A"
@@ -85,7 +87,7 @@ def draw?(board)
     end
 end
 
-board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]   #draw
+
 
 draw?(board)
 
