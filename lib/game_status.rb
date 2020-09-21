@@ -89,13 +89,10 @@ def draw?(board)
 end
 
 
-
-draw?(board)
-
-=begin
 def over?(board)
 end
 
+=begin
 def winner(board)
 end
 =end
