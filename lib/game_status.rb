@@ -88,7 +88,10 @@ def draw?(board)
       elsif won?(board) == false
         #puts "false B"
         false
-      elsif
+      elsif 
+      
+      
+=begin  
           WIN_COMBINATIONS.each do |win_combination|
           #puts win_combination.inspect
           win_index_1 = win_combination[0]
@@ -102,6 +105,7 @@ def draw?(board)
             if position_1 == position_2 && position_2 == position_3 && position_taken?(board, win_index_1)
              #puts "false C"
              false
+=end
             end
       end
     end
