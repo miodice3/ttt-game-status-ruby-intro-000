@@ -61,6 +61,7 @@ end
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]   #draw
 
+
 def draw?(board)
       if full?(board) == true
         puts "true A"
